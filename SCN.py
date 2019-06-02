@@ -1,7 +1,7 @@
 def cal(n, _scn, _ss, x, y, initial):
     count = 0
     for i in range (n):
-        count += int(_scn[i]) + int(_ss[i])
+        count += int(_scn[i]) & int(_ss[i])
     net = count* x - (n -count)*y
     final = initial + net
     return final
