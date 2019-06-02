@@ -77,3 +77,5 @@ if __name__ == "__main__":
             x, y, num =decompose(n, _str, 0,)
             if x==-1:
                 print -1
+            sleep(10)
+            exit()
