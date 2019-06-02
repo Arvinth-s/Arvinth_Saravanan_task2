@@ -1,3 +1,4 @@
+from time import sleep
 def cal(n, _scn, _ss, x, y, initial):
     count = 0
     for i in range (n):
@@ -16,3 +17,5 @@ if __name__ == "__main__":
         print "promoted"
     else :
         print "no change"
+    sleep(10)
+    exit()
