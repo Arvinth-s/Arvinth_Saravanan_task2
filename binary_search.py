@@ -1,4 +1,4 @@
-'''
+''' 
     Exponential binary search
     worst case:total number of queries: 39
     average number of queries for 1 to 1000000 is 36.902891
